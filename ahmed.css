@@ -1,0 +1,452 @@
+selector{
+    property:value;
+}
+*{
+    padding: 0%;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(31, 71, 91);
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li ,a{
+    margin-left: 22px;
+    margin-top: 10px;
+    color: darkgrey;
+}
+.navbar a:hover{
+    color: lavender;
+}
+.navbar h1{
+    color: darkgrey;
+}
+.navbar button{
+    padding: 16px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: darkgrey;
+    border: 1px solid darkgrey;
+    transition: 0.3s;
+
+}
+.navbar button:hover{
+    transform: translateY(-4px);
+    background-color: darkgrey;
+    color: black;
+}
+.hero .p1{
+    border: 1px solid  rgb(211, 237, 117);;
+    border-radius: 19px;
+    color:  rgb(211, 237, 117);
+    width: 200px;
+    padding: 12px;
+}
+.hero h1{
+    font-size: 40px;
+    color: white;
+}
+.hero h1 span{
+    color: rgb(211, 237, 117);
+}
+.hero .p2{
+    color: darkgrey;
+    font-size: 20px;
+}
+.hero .button button{
+    padding: 19px;
+    margin-left: 8px;
+    border: 1px solid  rgb(211, 237, 117);
+    color:  rgb(211, 237, 117);;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.hero .button button:hover{
+    transform: translateY(-3px);
+    background-color: darkgray;
+    color: black;
+    border:1px solid darkgrey;
+}
+.hero-stats{
+    display: flex;
+    gap: 25px ;
+    font-size: 20px;
+}
+.hero .pro{
+    border: 1px solid black;
+    width: 400px;
+    padding: 15px;
+    transform: translate(700px,-400px);
+    border-radius: 9px;
+    background-color: #181818;
+}
+.hero .pro h4{
+    background-color: #181818;
+    color: white;
+}
+.hero .pro span{
+    background-color: #181818;
+    color: rgb(211, 237, 117);
+}
+/* start services */
+.xx{
+    text-align: center;
+}
+.xx .p3{
+  color: rgb(211, 237, 117); 
+  font-size: 20px;
+}
+.xx h1{
+    font-size: 40px;
+    color: white;
+}
+.xx h1 span{
+    color:  rgb(211, 237, 117);
+}
+.p4{
+    font-size: 20px;
+    color: darkgrey;
+}
+.sectioncard{
+    display: flex;
+    gap: 15px;
+}
+.card{
+    padding: 15px;
+    border: 1px solid darkgrey;
+    border-radius: 9px;
+    transition: 0.3s;
+    margin-top: 12px;
+}
+.card:hover{
+    transform: translateY(-6px);
+    border: 1px solid  rgb(211, 237, 117);
+}
+.card i{
+    font-size: 34px;
+    color:  rgb(211, 237, 117);
+}
+.card h4{
+    font-size: 20px;
+    color: white;
+}
+.card .p5{
+    color: darkgray;
+    font-size: 17px;
+}
+.card button{
+    padding: 12px;
+    border: 1px solid rgb(31, 71, 91);
+    font-size: 15px;
+    color: white;
+}
+.card button:hover{
+    color: rgb(211, 237, 117) ;
+}
+/* end services */
+/* start about */
+.about{
+    margin-top: 180px;
+}
+.about span{
+    color: rgb(211, 237, 117);
+    font-size: 20px;
+}
+.about .bb{
+    color: rgb(211, 237, 117);
+    font-size: 40px;
+}
+.about h2{
+    font-size: 40px;
+    color: white;
+}
+.about p{
+    color: darkgray;
+    font-size: 21px;
+    margin-bottom: 35px;
+}
+.about ul{
+  color: white;
+  font-size: 19px;
+  margin-top: 10px;
+}
+.about i{
+    color:  rgb(211, 237, 117);
+}
+.about button{
+    padding: 12px;
+    border: 1px solid darkgrey;
+    border-radius: 9px;
+    background-color: darkgrey;
+    font-size: 15px;
+    color: black;
+    transition: 0.3s;
+    margin-top: 10px;
+}
+.about button:hover{
+   transform: translateY(-5px);
+}
+.aboutcard {
+  background-color: #181818;
+  color: white;
+  width: 100px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  transform: translate(950px , -300px);
+}
+
+.aboutcard h2 {
+  font-size: 20px;
+  line-height: 1;
+  background-color: #181818;
+  
+}
+
+.aboutcard p {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: #181818;
+  color: white;
+}
+.project{
+    text-align: center;
+}
+.project .oo{
+    color:  rgb(211, 237, 117);
+}
+.project span{
+    color:  rgb(211, 237, 117);
+    /* font-weight: 500px; */
+    font-size: 40px;
+}
+.project h2{
+    color: white;
+    font-size: 40px;
+}
+.section{
+    display:flex;
+    gap: 15px;    
+    margin-top: 80px;
+    /* text-align: center; */
+}
+.cord{
+    border: 1px solid darkgray;
+    border-radius: 9px;
+    padding: 25px;
+    background-color: #181818;
+    width: 450px;
+    transition: 0.3s;
+}
+.cord:hover{
+    transform: translateY(-5px);
+   border: 1px solid rgb(211, 237, 117);
+}
+.cord .ka{
+    border: 1px solid #181818;
+    border-radius: 9px;
+    background-color: #292929;
+    padding: 69px;
+}
+.cord .ka span{
+    text-align: center;
+    color:  rgb(211, 237, 117);
+    background-color: #292929;
+    font-size: 20px;
+}
+.cord p{
+    background-color: #181818;
+    text-align: left;
+    color: white;
+}
+.cord h3{
+    background-color: #181818;
+    text-align: left;
+    color: white;
+}
+.cord button{
+    text-align: left;
+    padding: 15px;
+    border: 1px solid #181818;
+    border-radius: 9px;
+    background-color: rgb(211, 237, 117) ;
+    transition: 0.3s;
+}
+.cord button:hover{
+    transform: translateY(-5px);
+}
+/* end projects */
+/* start question */
+.question{
+   margin-top: 150px;
+   text-align: center;
+}
+.question .zz{
+  color:rgb(211, 237, 117);
+font-size: 20px;
+}
+.question span{
+color: rgb(211, 237, 117) ;
+font-size: 40px;
+}
+.question h2{
+    color: white;
+    font-size: 40px;
+}
+.question p{
+    color: darkgray;
+
+}
+.question button{
+    padding: 15px;
+    border: 1px solid rgb(211, 237, 117) ;
+    background-color: rgb(211, 237, 117) ;
+    border-radius: 9px;
+    margin-top: 14px;
+    transition: 0.4s;
+}
+.question button:hover{
+    transform: translateY(-5px);
+}
+/* end question */
+/* start contact me */
+.contact{
+    margin-top: 80px;
+}
+.smsm{
+   margin-top: 30px;
+   line-height: 30px;
+}
+.smsm h1{
+   color: white;
+}
+.smsm h3{
+ color: rgb(211, 237, 117);
+ font-size: 22px;
+}
+form{
+   width: 480px;
+   gap: 12px;
+   display: flex;
+   flex-direction: column;
+   transform: translate(750px,-290px);
+
+}
+.p7{
+    color: rgb(211, 237, 117);
+    font-size: 20px;
+}
+.smsm p{
+    color: darkgray;
+}
+.smsm input {
+   background-color: #292929;
+   border: 1px solid #181818;
+   padding: 12px;
+   border-radius: 11px;
+   color: white;
+   outline: none;
+}
+.smsm textarea {
+   resize: vertical;
+   background-color: #292929;
+   border: 1px solid #181818;
+   padding: 12px;
+   border-radius: 11px;
+   color: white;
+   outline: none;
+}
+.smsm input ::placeholder{
+   color: darkgray;
+}
+.smsm form input:focus , 
+.smsm form textarea:focus{
+   border-color: rgb(211, 237, 117);
+}
+.smsm button{
+   background-color:rgb(211, 237, 117);
+   border: 1px solid #181818;
+   padding: 12px;
+   border-radius: 11px;
+   color: black;
+}
+footer{
+    border-top: 1px solid darkgrey;;
+}
+footer .nn{
+    padding: 18px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.nn a{
+    color: white;
+}
+.nn p{
+    color: darkgray;
+}
+@media(max-width:768px) {
+    .navbar {
+    flex-direction: column;
+    text-align: center;
+     }
+    .navbar button {
+       width: 35%;
+       margin-left: 35%;
+     }
+  .navbar ul {
+    /* flex-wrap: wrap; */
+    display: flex;
+    justify-content: center;
+     }
+    .hero .pro {
+      display: inline-block;
+      transform: translate(18px,20px);
+      margin-bottom: 15px;
+     }
+     .hero h1 {
+    font-size: 30px;
+    }
+  .aboutcard{
+    transform: translateX(10px);
+    margin-top: 12px;
+    margin-bottom: 25px;
+
+     }
+   .sectioncard{
+    display: flex;
+    flex-direction: column;
+     }
+   .section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 12px;
+     }
+  .smsm {
+    flex-direction: column;
+    margin-left: 12px;
+    }
+
+  .hero-stats {
+    justify-content: space-around;
+   }
+   .smsm form{
+    transform: translate(5px,20px);
+    margin-bottom: 40px;
+    width: 450px;
+   }
+}
